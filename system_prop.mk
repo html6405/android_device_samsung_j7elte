@@ -28,7 +28,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Radio
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.radio.sib16_support=0 \
-    rild.libpath=/system/lib/libsec-ril.so \
+    vendor.rild.libpath=/system/lib/libsec-ril.so \
     ro.ril.telephony.mqanelements=6 \
     ro.telephony.default_network=9 \
     ro.use_data_netmgrd=false \
